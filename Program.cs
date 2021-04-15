@@ -43,7 +43,9 @@ namespace BazaDanych
                 }
                 catch (Exception e)
                 {
-                    // wybierz poprawnie
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.WriteLine("Podaj poprawne dane");
+                    Console.ForegroundColor = ConsoleColor.White;
                 }
 
                 // dodaj do bazy danych
